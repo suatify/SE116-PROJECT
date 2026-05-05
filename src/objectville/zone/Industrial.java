@@ -46,7 +46,7 @@ public class Industrial extends Zone {
             int targetLevel = 0;
             boolean hasLevel1Req = (receivedPopulation > 0 && receivedElectricity > 0 && receivedWater > 0);
             boolean hasLevel2Req = (hasLevel1Req && hasSecurity);
-            boolean hasLevel3Req = (hasLevel2Req && receivedPopulation > 1); // assumed that excess population <1
+            boolean hasLevel3Req = (hasLevel2Req && receivedPopulation > 10); // assumed that excess population <10
 
             if (hasLevel3Req) {
                 targetLevel = 3;

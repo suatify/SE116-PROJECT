@@ -46,7 +46,7 @@ public class Commercial extends Zone {
             int targetLevel = 0;
             boolean hasLevel1Req = (receivedElectricity > 0 && receivedWater > 0 && receivedInternet > 0 && receivedPopulation > 0 &&  receivedGoods > 0);
             boolean hasLevel2Req = (hasLevel1Req && hasSecurity );
-            boolean hasLevel3Req = (hasLevel2Req && (receivedGoods>1) && (receivedPopulation>1)); // assumed that excess goods and population >1
+            boolean hasLevel3Req = (hasLevel2Req && (receivedGoods>10) && (receivedPopulation>10)); // assumed that excess goods and population <10
 
             if (hasLevel3Req) {
                 targetLevel = 3;
