@@ -32,6 +32,37 @@ public abstract class Zone extends Cell {
         this.hasSecurity=false;
     }
 
+    public int getReceivedElectricity() { return receivedElectricity; }
+    public void setReceivedElectricity(int receivedElectricity) { this.receivedElectricity = receivedElectricity; }
+    public int getReceivedWater() { return receivedWater; }
+    public void setReceivedWater(int receivedWater) { this.receivedWater = receivedWater; }
+    public int getReceivedInternet() { return receivedInternet; }
+    public void setReceivedInternet(int receivedInternet) { this.receivedInternet = receivedInternet; }
+    public int getReceivedPopulation() { return receivedPopulation; }
+    public void setReceivedPopulation(int receivedPopulation) { this.receivedPopulation = receivedPopulation; }
+    public int getReceivedGoods() { return receivedGoods; }
+    public void setReceivedGoods(int receivedGoods) { this.receivedGoods = receivedGoods; }
+    public int getReceivedLifestyle() { return receivedLifestyle; }
+    public void setReceivedLifestyle(int receivedLifestyle) { this.receivedLifestyle = receivedLifestyle; }
+    public boolean isHasSecurity() { return hasSecurity; }
+    public void setHasSecurity(boolean hasSecurity) { this.hasSecurity = hasSecurity; }
+    public boolean isHasHealth() { return hasHealth; }
+    public void setHasHealth(boolean hasHealth) { this.hasHealth = hasHealth; }
+    public boolean isHasEducation() { return hasEducation; }
+    public void setHasEducation(boolean hasEducation) { this.hasEducation = hasEducation; }
+
+    public void resetTick() {
+        this.receivedElectricity = 0;
+        this.receivedWater = 0;
+        this.receivedInternet = 0;
+        this.receivedPopulation = 0;
+        this.receivedGoods = 0;
+        this.receivedLifestyle = 0;
+        this.hasSecurity = false;
+        this.hasHealth = false;
+        this.hasEducation = false;
+    }
+
     public int getLevel() {
         return level;
     }
