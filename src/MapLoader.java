@@ -2,13 +2,10 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.List;
 
 public class MapLoader {
-
     public static Cell[][] loadMap(String fileName) {
-
-        List<String> lines = new ArrayList<>();
+        ArrayList<String> lines = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(new FileReader(fileName))) {
             String line;
             while ((line = br.readLine()) != null) {
@@ -17,13 +14,13 @@ public class MapLoader {
                 }
             }
         } catch (IOException e) {
-            System.err.println(" " + "Error: " + e.getMessage());
+            System.err.println("Error: " + e.getMessage());
             return null;
         }
-
         return convertToGrid(lines);
     }
-    private static Cell[][] convertToGrid(List<String> lines) {
+
+    private static Cell[][] convertToGrid(ArrayList<String> lines) {
         if (lines.isEmpty()) return null;
 
         int rowCount = lines.size();
