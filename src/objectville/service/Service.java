@@ -13,6 +13,7 @@ public abstract class Service extends Cell {
 
     public int getRadius() {return radius;}
 }
+<<<<<<< HEAD
 class PoliceStation extends Service{
 
     public PoliceStation(int line, int column) {
@@ -31,3 +32,6 @@ class School extends Service{
         super(line, column, CellType.School, 4);
     }
 }
+=======
+
+>>>>>>> Ayberk

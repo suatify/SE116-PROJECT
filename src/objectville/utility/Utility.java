@@ -14,6 +14,7 @@ public abstract class Utility extends Cell {
     public int getCapacity() {return capacity;}
 }
 
+<<<<<<< HEAD
 class PowerPlant extends Utility{
 
     public PowerPlant(int line, int column) {
@@ -32,3 +33,5 @@ class InternetHub extends Utility{
         super(line, column, CellType.InternetHub);
     }
 }
+=======
+>>>>>>> Ayberk
