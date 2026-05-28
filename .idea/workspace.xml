@@ -4,27 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1fdf0323-e06b-4515-95d6-9d346aa47e6a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SE116-PROJECT.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Cell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CellType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CellType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EmptyCell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EmptyCell.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Road.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Road.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SE116-PROJECT/Cell.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SE116-PROJECT/CellType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SE116-PROJECT/EmptyCell.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SE116-PROJECT/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SE116-PROJECT/Road.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SE116-PROJECT/Service.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SE116-PROJECT/Utility.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/SE116-PROJECT/Zone.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Utility.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Zone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Zone.java" afterDir="false" />
+    <list default="true" id="85ee1fac-7b96-4283-8d68-4dbaa5f63a2b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Cell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CellType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EmptyCell.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Road.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Utility.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Zone.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,40 +27,20 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <favorite-branches>
-      <branch-storage>
-        <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$/SE116-PROJECT" source="basar" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="b1-zoneClasses" />
+        <entry key="$PROJECT_DIR$/SE116-PROJECT" value="b1-zoneClasses" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;BasarBal&quot;
-  }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/suatify/SE116-PROJECT.git&quot;,
-    &quot;accountId&quot;: &quot;15bae808-9e67-4df9-9391-11a4a3c6b8a4&quot;
-  }
-}</component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 1
+  &quot;associatedIndex&quot;: 3
 }</component>
-  <component name="ProjectId" id="3CXVmY4I5Lv5sxw9yRCHwo2Uz2F" />
+  <component name="ProjectId" id="3DE38ifyhjvTlSi3dFjZSbWmB6f" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
@@ -81,22 +49,26 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "a1-Cell-Identification",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "D:/Kodlar/SE116-PROJECT/src/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "onboarding.tips.debug.path": "C:/Users/Victus/IdeaProjects/Objectville/src/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="1fdf0323-e06b-4515-95d6-9d346aa47e6a" name="Changes" comment="" />
-      <created>1776532063303</created>
+      <changelist id="85ee1fac-7b96-4283-8d68-4dbaa5f63a2b" name="Changes" comment="" />
+      <created>1777833244618</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1776532063303</updated>
+      <updated>1777833244618</updated>
     </task>
     <servers />
   </component>
@@ -105,19 +77,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="basar" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
