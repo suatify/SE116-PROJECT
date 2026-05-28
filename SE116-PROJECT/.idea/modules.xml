@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/Objectville.iml" filepath="$PROJECT_DIR$/Objectville.iml" />
-=======
-      <module fileurl="file://$PROJECT_DIR$/.idea/SE116-PROJECT.iml" filepath="$PROJECT_DIR$/.idea/SE116-PROJECT.iml" />
->>>>>>> a2-MapLoader
     </modules>
   </component>
 </project>
