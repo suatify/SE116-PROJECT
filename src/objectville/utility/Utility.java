@@ -12,26 +12,5 @@ public abstract class Utility extends Cell {
     }
 
     public int getCapacity() {return capacity;}
+    public abstract String getProvidedUtilityType();
 }
-
-<<<<<<< HEAD
-class PowerPlant extends Utility{
-
-    public PowerPlant(int line, int column) {
-        super(line, column, CellType.PowerPlant);
-    }
-}
-class WaterPumpingStation extends  Utility{
-
-    public WaterPumpingStation(int line, int column) {
-        super(line, column, CellType.WaterPumpingStation);
-    }
-}
-class InternetHub extends Utility{
-
-    public InternetHub(int line, int column) {
-        super(line, column, CellType.InternetHub);
-    }
-}
-=======
->>>>>>> Ayberk
