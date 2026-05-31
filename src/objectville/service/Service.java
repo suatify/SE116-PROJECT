@@ -10,28 +10,7 @@ public abstract class Service extends Cell {
         super(line, column, type);
         this.radius=radius;
     }
-
+    public abstract String getServiceType();
     public int getRadius() {return radius;}
-}
-<<<<<<< HEAD
-class PoliceStation extends Service{
 
-    public PoliceStation(int line, int column) {
-        super(line, column, CellType.PoliceStation, 5);
-    }
 }
-class Hospital extends Service{
-
-    public Hospital(int line, int column) {
-        super(line, column, CellType.Hospital, 3);
-    }
-}
-class School extends Service{
-
-    public School(int line, int column) {
-        super(line, column, CellType.School, 4);
-    }
-}
-=======
-
->>>>>>> Ayberk
