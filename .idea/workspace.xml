@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85ee1fac-7b96-4283-8d68-4dbaa5f63a2b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cell.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CellType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/EmptyCell.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Road.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Service.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Utility.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Zone.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,12 +36,12 @@
     &quot;assignee&quot;: &quot;ceylanarda&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/suatify/SE116-PROJECT.git&quot;,
-    &quot;accountId&quot;: &quot;fda4be49-64ec-4f13-b3e1-111dbdf63357&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/suatify/SE116-PROJECT.git",
+    "accountId": "1abc0baa-5479-46b2-92b7-4fe229090691"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -73,17 +67,6 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
