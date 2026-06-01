@@ -9,6 +9,8 @@ public abstract class Zone extends Cell {
     protected int receivedElectricity;
     protected int receivedWater;
     protected int receivedInternet;
+
+
     protected int receivedPopulation;
     protected int receivedGoods;
     protected int receivedLifestyle;
@@ -18,9 +20,13 @@ public abstract class Zone extends Cell {
     protected boolean hasHealth;
     protected boolean hasEducation;
 
+    //
+    protected int previousOutput ;
+
     public Zone(int line, int column, String type) {
         super(line, column, type);
         this.level = 0;
+        this.previousOutput=0;
         this.receivedElectricity=0;
         this.receivedWater=0;
         this.receivedInternet=0;
@@ -50,6 +56,9 @@ public abstract class Zone extends Cell {
     public void setHasHealth(boolean hasHealth) { this.hasHealth = hasHealth; }
     public boolean isHasEducation() { return hasEducation; }
     public void setHasEducation(boolean hasEducation) { this.hasEducation = hasEducation; }
+    //
+    public int getPreviousOutput() {return previousOutput;}
+    public void setPreviousOutput(int previousOutput) {this.previousOutput = previousOutput;}
 
     public void resetTick() {
         this.receivedElectricity = 0;
