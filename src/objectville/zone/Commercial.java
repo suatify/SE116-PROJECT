@@ -36,7 +36,6 @@ public class Commercial extends Zone {
             if (receivedElectricity < 0 || receivedWater < 0 || receivedInternet < 0 || receivedGoods < 0 || receivedPopulation < 0) {
                 throw new IllegalStateException("Negative resources detected!");
             }
-
             // If all utilities are 0, return the level to 0
             if (receivedElectricity == 0 && receivedWater == 0 && receivedInternet == 0) {
                 setLevel(0);

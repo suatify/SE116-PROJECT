@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85ee1fac-7b96-4283-8d68-4dbaa5f63a2b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/objectville/manager/ZoneUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map00.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objectville/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ssdf.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/SE116-PROJECT.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objectville/MapLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objectville/MapLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objectville/manager/ResourceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objectville/manager/ResourceManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objectville/manager/ServiceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objectville/manager/ServiceManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objectville/manager/UtilityManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objectville/manager/UtilityManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objectville/manager/ZoneUpdater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objectville/manager/ZoneUpdater.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/objectville/zone/Commercial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objectville/zone/Commercial.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +51,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/suatify/SE116-PROJECT.git&quot;,
-    &quot;accountId&quot;: &quot;0e5c44b3-1c74-48c0-a2eb-5faf9699985e&quot;
+    &quot;accountId&quot;: &quot;1abc0baa-5479-46b2-92b7-4fe229090691&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -51,18 +63,19 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "d1",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "D:/Kodlar/SE116-PROJECT/src/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -72,6 +85,38 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="objectville.Main" />
+      <module name="ssdf" />
+      <option name="PROGRAM_PARAMETERS" value="map00.txt 10" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="objectville.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="SE116-PROJECT" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="SE116-PROJECT" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

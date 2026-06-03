@@ -112,13 +112,30 @@ public class ResourceManager {
         }
 
         for (Zone zone : zones) {
+            String zoneName = "";
+            if (zone instanceof Housing) zoneName = "House";
+            else if (zone instanceof Commercial) zoneName = "Commercial";
+            else if (zone instanceof Industrial) zoneName = "Industrial";
+
             if (zone instanceof Housing) {
                 zone.setReceivedLifestyle(lifestylePerZone);
+                if (lifestylePerZone > 0) {
+                    System.out.println(zoneName + " at (" + zone.getLine() + "," + zone.getColumn() + ") received " + lifestylePerZone + " lifestyle");
+                }
             } else if (zone instanceof Industrial) {
                 zone.setReceivedPopulation(popPerZone);
+                if (popPerZone > 0) {
+                    System.out.println(zoneName + " at (" + zone.getLine() + "," + zone.getColumn() + ") received " + popPerZone + " population");
+                }
             } else if (zone instanceof Commercial) {
                 zone.setReceivedPopulation(popPerZone);
                 zone.setReceivedGoods(goodsPerZone);
+                if (popPerZone > 0) {
+                    System.out.println(zoneName + " at (" + zone.getLine() + "," + zone.getColumn() + ") received " + popPerZone + " population");
+                }
+                if (goodsPerZone > 0) {
+                    System.out.println(zoneName + " at (" + zone.getLine() + "," + zone.getColumn() + ") received " + goodsPerZone + " goods");
+                }
             }
         }
     }

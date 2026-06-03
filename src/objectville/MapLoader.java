@@ -19,7 +19,7 @@ public class MapLoader {
                 }
             }
         } catch (IOException e) {
-            System.err.println("Error: " + e.getMessage());
+            System.out.println("Error: " + e.getMessage());
             return null;
         }
         return convertToGrid(lines);
