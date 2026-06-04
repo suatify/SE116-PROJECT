@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85ee1fac-7b96-4283-8d68-4dbaa5f63a2b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/map00.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/objectville/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ssdf.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SE116-PROJECT.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/objectville/manager/DisplayManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objectville/MapLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objectville/MapLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objectville/manager/ResourceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objectville/manager/ResourceManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objectville/manager/ServiceManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objectville/manager/ServiceManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objectville/manager/UtilityManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objectville/manager/UtilityManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objectville/manager/ZoneUpdater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objectville/manager/ZoneUpdater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objectville/zone/Commercial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/objectville/zone/Commercial.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +57,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "c1",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "onboarding.tips.debug.path": "D:/Kodlar/SE116-PROJECT/src/Main.java",
